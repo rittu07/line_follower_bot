@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot">
+  
+    <!-- Declare arguments -->
+    <xacro:arg name="use_ros2_control" default="true"/>
+    
+    <!-- Include required files with correct filenames -->
+    <xacro:include filename="robot_core.xacro"/>
+    <xacro:include filename="gazebo_control.xacro"/>
+    <xacro:include filename="camera.xacro"/>
+    <xacro:include filename="inertial_macros.xacro"/>
+
+</robot>
