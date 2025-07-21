@@ -1,0 +1,1 @@
+This project implements a Line Follower Robot using ROS 2 and OpenCV. The robot detects and follows a colored or black line on the ground using a camera, suitable for real or simulated environments (e.g., Gazebo).
